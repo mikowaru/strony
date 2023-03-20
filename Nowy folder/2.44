@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<HTML LANG="pl-PL">
+<head>
+	<title>xyz</title>
+	<meta charset="UTF-8">
+<style>
+	
+</style>	
+<body>
+	<from action="http://www.cezstalowawola.pl/" method="post">
+	<h4>Wpisz hasło<h4>
+	<p>Wyślij ten plik: <input type="file" name-="plik" value="" size="30></p> 
+	</from>
+</body>	
+</head>
+</HTML>

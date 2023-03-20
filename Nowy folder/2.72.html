@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<HTML LANG="pl-PL">
+<head>
+	<title>xyz</title>
+	<meta charset="UTF-8">
+<style>
+	
+</style>
+</head>	
+<body>
+	<h3>Rysuje niebieską linie</h3>	
+	<canvas id="kanwa" width="200" height="120" style="border: 1px solid #aec5ce;">
+		brak obsługi canvas
+	</canvas>
+	<script>
+		var x = document.getElementById("kanwa");
+		var xtx = x.getContext('2d');
+		xtx.moveTo(0, 0);
+		xtx.lineTo(200, 120);
+		xtx.dtrokeStyle = "blue";
+		xtx.stroke();
+	</script>
+</body>	
+</HTML>

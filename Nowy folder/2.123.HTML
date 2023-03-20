@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML LANG="pl-PL">
+<head>
+	<title>xyz</title>
+	<meta charset="UTF-8">
+</head>	
+<body>
+<fieldset>
+ <form action="mailto:nauka@gmail.com" method="post">
+ 
+	<h4>Dane Osobowe<h4>
+		<p>Podaj swoje imię:  <input name="dane" value="" size="30"></p>
+		<p>Podaj swoje nazwisko:  <input name="dane" value="" size="30"></p>
+		
+	<h4>Wybierz płeć</h4>
+		<input type="radio" value="kobieta" name="grupa_opcji" checked>kobieta
+		<input type="radio" value="mężczyzna" name="grupa_opcji" >mężczyza<br>
+		
+		<p>Podaj wiek: <br> <input name="dane" value="" size="30"></p>
+		
+		<p>Podaj adres e-mail: <br> <input name="dane" value="" size="30"></p>
+		
+	<h4>Wybierz wykształcenie</h4>
+		<input type="radio" value="podstawowe" name="grupa_opcji" checked>Podstawowe<br>
+		<input type="radio" value="średnie" name="grupa_opcji" >średnie<br>
+		<input type="radio" value="Wyższe" name="grupa_opcji" >Wyższe<br>
+		
+	<h4>Formularz wyboru języka<h4>
+		<select name="języki" size="5" multiple>
+		<option>Język Angielski</option>
+		<option>Język Niemiecki</option>
+		<option>Język Francuski</option>
+		<option>Język Włoski</option>
+		<option>Język Rosyjski</option>
+		<option>Język Hiszpański</option>
+		</select>
+	
+	<h4>Wybierz zainteresowania</h4>
+	<input type="checkbox" name="opcje">Motoryzacja<br>
+	<input type="checkbox" name="opcje">Sport<br>
+	<input type="checkbox" name="opcje">Muzyka<br>
+	<input type="checkbox" name="opcje">Taniec<br>
+	<input type="checkbox" name="opcje">Gry komputerowe<br>
+	<input type="checkbox" name="opcje">Inne (podj jakie);<input name="dane" value="" size="30"> <br>
+	
+	<p>Wypisz swoje zastszerzenia<br><textarea name="block" rows="8" cols="40"></textarea></p>
+	
+	<p><input type="checkbox" name="opcje">Zgadzam się na przetwarzanie moich danych osobowych</p>
+	
+	<p><input type="submit" value="Wyślij"><input type="reset" value="Wyczyść">
+	</form>
+	</fieldset>
+</body>	
+</HTML>
