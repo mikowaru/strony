@@ -1,0 +1,120 @@
+Oto przykład kodu HTML i CSS na podstawie podanych wymagań. Należy dodać odpowiednie pliki tekstowe i obrazy na stronę.
+
+```html
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szkoła ponadgimnazjalna</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Projekt strony internetowej szkoły ponadgimnazjalnej</h1>
+    </header>
+
+    <section class="left-panel">
+        <h3>Do pobrania</h3>
+        <ul>
+            <li><a href="baza/zapytania.txt" download>zapytania SQL</a></li>
+            <li><a href="baza/szkola_nowa.sql" download>baza danych</a></li>
+        </ul>
+        <hr>
+        <h3>Wyznaczenie najwyższej średniej</h3>
+        <ul>
+            <li>Polak <input type="text" id="polak"></li>
+            <li>Nowak <input type="text" id="nowak"></li>
+            <li>Rysik <input type="text" id="rysik"></li>
+        </ul>
+        <button id="wyznacz">Wyznacz</button>
+        <h3>Najwyższa średnia</h3>
+    </section>
+
+    <section class="right-panel">
+        <table>
+            <thead>
+                <tr>
+                    <th>Treść zapytania</th>
+                    <th>Zrzut ekranu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Zapytanie 1</td>
+                    <td><img src="obrazy/zrzut1.jpg" alt="Zrzut ekranu 1"></td>
+                </tr>
+                <tr>
+                    <td>Zapytanie 2</td>
+                    <td><img src="obrazy/zrzut2.jpg" alt="Zrzut ekranu 2"></td>
+                </tr>
+                <!-- Dodaj kolejne wiersze w razie potrzeby -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer>
+        <h4>Stronę wykonał: w miejsce kropek wpisany Twój numer PESEL</h4>
+    </footer>
+</body>
+</html>
+```
+
+Dodatkowo, możesz utworzyć plik `styles.css` z odpowiednimi stylami, na przykład:
+
+```css
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-panel {
+    float: left;
+    width: 30%;
+    padding: 20px;
+}
+
+.left-panel h3 {
+    font-size: 20px;
+    color: #0077b6;
+}
+
+.left-panel ul {
+    list-style-type: none;
+}
+
+.left-panel ul li {
+    margin-bottom: 10px;
+}
+
+.right-panel {
+    float: right;
+    width: 70%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 10px;
+}
+```
+
+Upewnij się, że dostosowałeś ścieżki do plików tekstowych i obrazów oraz zastąpiłeś "Twój numer PESEL" odpowiednimi danymi. Ten kod HTML i CSS tworzy stronę zgodnie z podanymi wymaganiami.
